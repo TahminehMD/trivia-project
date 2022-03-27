@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Indie+Flower&display=swap');
+
+body{
+    font-family: 'Comfortaa', cursive;
+    display: block;
+    text-align: center;
+    background-image: url("https://vips.org/wp-content/uploads/2018/09/question-background.png");
+    padding-top:50px;
+    justify-content: center;
+}
+
+
+#question{    
+    border-radius: 15px;
+    background-color: rgb(220, 220, 243);
+    display: none;
+    padding: 10px;
+    text-align: center;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-top: 20px;
+    
+}
+
+#choices{        
+    grid-template-columns: 200px;
+}
+
+.choice-button{    
+    font-family: 'Comfortaa', cursive;
+    width: 250px;
+    border: solid;
+    margin: 5px;
+    border-radius: 15px;
+    color: purple;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px #a7abb3;
+}
+.choice-button:hover{
+    background-color: rgb(163, 61, 163);
+ }
+
+.category-button{
+    font-family: 'Comfortaa', cursive;
+    height: 35px;
+    width: 75px;
+    background-color: rgb(235, 217, 185); 
+    border: 2px solid rgb(12, 9, 194);
+    border-radius: 5px; 
+    box-shadow: 10px 10px 5px #888888; 
+}
+.category-button:hover{
+    background-color: rgb(192, 150, 88);
+    
+}
+
+#game-description{
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: auto;
+    color: rgb(211, 236, 153);
+    font-weight: bold;
+    font-size:medium;
+    font-style: italic;
+    background-color: rgb(23, 3, 80);
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+}
+#category{
+
+    display:flexbox;
+    justify-content: center;
+    
+}
+#title{
+    background-color: white;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:20px;
+    font-style: italic;
+    font-size: x-large;
+    margin-bottom: 20px;
+    border: 2px solid rgb(12, 9, 194);
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 300px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
