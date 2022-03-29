@@ -36,9 +36,10 @@ body{
     color: purple;
     font-weight: bold;
     box-shadow: 10px 10px 5px #a7abb3;
+    padding: 10px;
 }
 .choice-button:hover{
-    background-color: rgb(163, 61, 163);
+    background-color: rgb(176, 163, 176);
  }
 
 .category-button{
